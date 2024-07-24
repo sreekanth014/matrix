@@ -1,0 +1,8 @@
+name: the matrice show
+on: [push]
+jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        version: [10, 12, 14]
+        os: [ubuntu-latest, windows-latest]
