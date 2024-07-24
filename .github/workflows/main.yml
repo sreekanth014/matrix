@@ -1,3 +1,5 @@
+name: the example matrix
+on: [push]
 jobs:
   example_matrix:
     strategy:
